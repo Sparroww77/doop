@@ -12,6 +12,7 @@ body{
   color: white;
 }
 .container{
+  position:relative;
   padding: 1em;
   height: 100vh;
 }
@@ -39,6 +40,14 @@ section hr{
 .main p:last-child{
   margin-top: 1.25em;
 }
-footer{
-  flex-shrink: 0;
+footer p{
+  position:absolute;
+  bottom:5%;
+}
+@media only screen and (max-width: 600px) {
+  .container{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+  }
 }
