@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto&display=swap');
+html {
+  background: url('../images/davi.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+body{
+  margin: 0;
+  height: 100%;
+  font-family: 'Roboto', cursive;
+  color: white;
+}
+.container{
+  padding: 1em;
+  height: 100vh;
+}
+header h2{
+  margin-top: 0;
+  font-weight: normal;
+}
+section{
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+    text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.main p:first-child{
+  font-size: 4em;
+  margin-bottom: 0;
+  padding-bottom: .25em;
+}
+section hr{
+  width: 20%;
+}
+
+.main p:last-child{
+  margin-top: 1.25em;
+}
+footer{
+  flex-shrink: 0;
+}
